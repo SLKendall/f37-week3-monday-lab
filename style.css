@@ -1,0 +1,64 @@
+*  * {
+    font-family: 'Abel', sans-serif;
+}
+
+header {
+    background-image: url(https://cdn.abcotvs.com/dip/images/24996_kgo-windows-bliss-040714-1280.jpg?w=1600);
+    background-size:auto;
+}
+
+ .cart-text{
+    display:flex;
+    justify-content: flex-end;
+    align-items:top-right;
+    color: rgb(0, 0, 0);
+    
+}
+
+body{
+    background-color: rgb(255, 219, 172)
+}
+
+img {
+    height: 600px;
+    width: 250px;
+}
+
+h4 {
+    color: rgb(54, 54, 54);
+    background-color: orangered;
+}
+
+button {
+     cursor: pointer;
+  }
+
+button:active {
+    transform: scale(0.9);
+}
+
+#items{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: tan;
+    flex-wrap: wrap;
+}
+
+.item-box{
+    height: 700px;
+    width: 400px;
+    background-color: teal;
+}
+.title{
+ padding: 5px;
+ background-color: whitesmoke;
+ opacity: 0.9;
+}
+
+
+footer{
+background-color:darkgrey;
+padding: 20px;
+}
